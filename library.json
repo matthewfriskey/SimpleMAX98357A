@@ -1,0 +1,21 @@
+{
+    "name": "SimpleMAX98357A",
+    "version": "1.0.0",
+    "description": "A simple Arduino library for the MAX98357A I2S amplifier on ESP32, supporting MP3 and WAV playback from various storage types.",
+    "keywords": "audio, i2s, max98357a, esp32",
+    "authors": [
+        {
+            "name": "Matthew Friskey",
+            "maintainer": true
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/matthewfriskey/SimpleMAX98357A.git"
+    },
+    "frameworks": "arduino",
+    "platforms": "espressif32",
+    "dependencies": {
+        "espressif/esp32-libhelix-mp3": "^1.0"
+    }
+}
